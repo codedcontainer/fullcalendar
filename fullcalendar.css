@@ -504,7 +504,7 @@ temporary rendered events).
 
 .fc-scroller {
 	-webkit-overflow-scrolling: touch;
-	height: 500px; /* if using on mobile */
+	
 }
 
 /* TODO: move to agenda/basic */
@@ -1311,6 +1311,9 @@ be a descendant of the grid when it is being dragged.
 .fc-list-view {
 	border-width: 1px;
 	border-style: solid;
+}
+.fc-list-view .fc-scroller { 
+	height: 500px; /* if using on mobile */	
 }
 
 /* table resets */
