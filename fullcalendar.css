@@ -9,6 +9,8 @@
 .fc {
 	direction: ltr;
 	text-align: left;
+	margin: 0px 20px; /* adding for mobile */ 
+	width: 100%; 
 }
 
 .fc-rtl {
@@ -502,6 +504,7 @@ temporary rendered events).
 
 .fc-scroller {
 	-webkit-overflow-scrolling: touch;
+	height: 500px; /* if using on mobile */
 }
 
 /* TODO: move to agenda/basic */
